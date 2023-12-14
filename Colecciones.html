@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet” href=”css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid justify-content-center">
+          <a class="navbar-brand" href="index.html">GUGGENHEIM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <a class="nav-link" href="Nosotros.html" target="_top">Nosotros</a>
+              <a class="nav-link" href="Colecciones.html" target="_top">Colecciones</a>
+              <a class="nav-link" href="Tienda.html" target="_top">Tienda</a>
+              <a class="nav-link" href="Contacto.html" target="_top">Contacto</a> 
+              <a class="nav-link" href="Reseña.html" target="_top">Reseñas</a>
+            </ul>
+          </div>
+        </div>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </nav>
+    </div>
+  </div>
+  
+<style>
+  *{
+    font-family: 'Baumans', cursive;
+   }
+
+.navbar {
+  position: sticky; 
+  top: 0; 
+  z-index: 1000; 
+ }
+</style>
+
+<div class="container">
+
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+                            <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+                              <a href="#artworkSection1">
+                                  <div class="card h-100 text-bg-dark border-0">
+                                      <img src="img/Dorothea_Helm.jpg" class="card-img" alt="artwork_1">
+                                      <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                                          <div>
+                                              <h3 class="card-title card-title1"><strong>Dorothea "Dörte" Helm</strong></h3>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </a>
+                            </div>
+
+                            <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+                              <a href="#artworkSection4">
+                                  <div class="card h-100 text-bg-dark border-0">
+                                      <img src="img/Farkas_Molnár.jpg" class="card-img" alt="artwork_1">
+                                      <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                                          <div>
+                                              <h3 class="card-title card-title1"><strong>Farkas Ferenc Molnár</strong></h3>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </a>
+                            </div>
+
+                            <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+                              <a href="#artworkSection3">
+                                  <div class="card h-100 text-bg-dark border-0">
+                                      <img src="img/Ludwig_Mies_van_der_Rohe.jpg" class="card-img" alt="artwork_1">
+                                      <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                                          <div>
+                                              <h3 class="card-title card-title1"><strong>Max Bill</strong></h3>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </a>
+                            </div>
+
+                            <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+                              <a href="#artworkSection2">
+                                  <div class="card h-100 text-bg-dark border-0">
+                                      <img src="img/Max_Bill.jpg" class="card-img" alt="artwork_1">
+                                      <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                                          <div>
+                                              <h3 class="card-title card-title1"><strong>Ludwig Mies van der Rohe</strong></h3>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </a>
+                            </div>
+
+      </div>
+
+
+              <div class="row mx-auto" id="artworkSection1">
+                <div class="col-11 col-md-12 mx-auto mb-4 d-flex justify-content-between align-items-center">
+                    <p class="my-auto fs-4"><strong>Dorothea "Dörte" Helm</strong></p>
+                </div>
+                <!-- ARTWORK 1 -->
+                <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist1_1">
+                        <div class="card h-100 text-bg-dark">
+                            <div class="artist-image-overlay artist1-image-overlay">
+                                <img src="img/Dorothea_Helm1.jpg" class="card-img" alt="artwork1_artist1">
+                            </div>
+                            <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                                <div class="align-items-center p-2">
+                                    <h3 class="card-title text-center"><strong>Cosmic Composition</strong></h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- ARTWORK 2 -->
+                <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist1_2">
+                        <div class="card h-100 text-bg-dark">
+                            <div class="artist-image-overlay artist1-image-overlay">
+                                <img src="img/Dorothea_Helm2-2.jpg" class="card-img" alt="artwork2_artist1">
+                            </div>
+                            <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                                <div class="align-items-center p-2">
+                                    <h3 class="card-title text-center"><strong>Ex-Libris</strong></h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- ARTWORK 3 -->
+                <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist1_3">
+                        <div class="card h-100 text-bg-dark">
+                            <div class="artist-image-overlay artist1-image-overlay">
+                                <img src="img/Dorothea_Helm3.jpg" class="card-img" alt="artwork3_artist1">
+                            </div>
+                            <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                                <div class="align-items-center p-2">
+                                    <h3 class="card-title text-center"><strong>Sitzender Mann</strong></h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- ARTWORK 4 -->
+                <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist1_4">
+                        <div class="card h-100 text-bg-dark">
+                            <div class="artist-image-overlay artist1-image-overlay">
+                                <img src="img/Dorothea_Helm4.jpg" class="card-img" alt="artwork4_artist1">
+                            </div>
+                            <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                                <div class="align-items-center p-2">
+                                    <h3 class="card-title text-center"><strong>Gefallte Tanne 1920</strong></h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-11 mx-auto d-md-none">
+                    <a href="#" class="btn btn-black d-grid mb-4">Ver artista</a>
+                </div>
+              
+                <div class="col-11 col-md-12 mx-auto mb-3">
+                    
+                </div>
+              </div>
+                <!-- obras de dorothea -->
+              <div class="modal fade" id="modal_artist1_1" tabindex="-1" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title fs-4">Cosmic Composition, 1920</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/Dorothea_Helm1.jpg" class="card-img-top" alt="modal_artist1_1">
+                            
+                            </p>
+                        </div>
+                        <div class="modal-footer d-flex justify-content-between">
+                            <button type="button" class="btn btn-black" data-bs-target="#modal_artist1_1" data-bs-toggle="modal">&lt;</button>
+                            <p><strong>01/04</strong></p>
+                            <button type="button" class="btn btn-black" data-bs-target="#modal_artist1_2" data-bs-toggle="modal">&gt;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal_artist1_2" tabindex="-1" style="display: none;" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h3 class="modal-title fs-4">Ex-Libris, 1927</h3>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <img src="img/Dorothea_Helm2.jpg" class="card-img-top" alt="modal_artist1_2">
+                          
+                            
+              </p>
+                      </div>
+                      <div class="modal-footer d-flex justify-content-between">
+                          <button type="button" class="btn btn-black" data-bs-target="#modal_artist1_1" data-bs-toggle="modal">&lt;</button>
+                          <p><strong>02/04</strong></p>
+                          <button type="button" class="btn btn-black" data-bs-target="#modal_artist1_3" data-bs-toggle="modal">&gt;</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="modal fade" id="modal_artist1_3" tabindex="-1" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title fs-4">Sitzender Mann, 1919</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/Dorothea_Helm3.jpg" class="card-img-top" alt="modal_artist1_3">
+                        
+                          
+            </p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-between">
+                        <button type="button" class="btn btn-black" data-bs-target="#modal_artist1_2" data-bs-toggle="modal">&lt;</button>
+                        <p><strong>03/04</strong></p>
+                        <button type="button" class="btn btn-black" data-bs-target="#modal_artist1_4" data-bs-toggle="modal">&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal_artist1_4" tabindex="-1" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h3 class="modal-title fs-4">Gefallte Tanne, 1920</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <img src="img/Dorothea_Helm4.jpg" class="card-img-top" alt="modal_artist1_4">
+                      
+                        
+          </p>
+                  </div>
+                  <div class="modal-footer d-flex justify-content-between">
+                      <button type="button" class="btn btn-black" data-bs-target="#modal_artist1_3" data-bs-toggle="modal">&lt;</button>
+                      <p><strong>04/04</strong></p>
+                      <button type="button" class="btn btn-black" data-bs-target="#modal_artist1_1" data-bs-toggle="modal">&gt;</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <img class="d-block mx-lg-auto img-fluid rounded-start card-img-top" src="img/Diseño1.jpg" alt="">
+
+      <br>
+
+      <div class="row mx-auto" id="artworkSection1">
+        <div class="col-11 col-md-12 mx-auto mb-4 d-flex justify-content-between align-items-center">
+            <p class="my-auto fs-4"><strong>Max Bill</strong></p>
+        </div>
+        <!-- ARTWORK 1 -->
+        <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist2_1">
+                <div class="card h-100 text-bg-dark">
+                    <div class="artist-image-overlay artist1-image-overlay">
+                        <img src="img/Max_Bill_1-1.jpg" class="card-img" alt="artwork1_artist1">
+                    </div>
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                        <div class="align-items-center p-2">
+                            <h3 class="card-title text-center"><strong>Horizontal-vertikal-rhythmus</strong></h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- ARTWORK 2 -->
+        <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist2_2">
+                <div class="card h-100 text-bg-dark">
+                    <div class="artist-image-overlay artist1-image-overlay">
+                        <img src="img/Max_Bill_2-2.jpg" class="card-img" alt="artwork2_artist1">
+                    </div>
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                        <div class="align-items-center p-2">
+                            <h3 class="card-title text-center"><strong>Hauser & Wirth</strong></h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- ARTWORK 3 -->
+        <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist2_3">
+                <div class="card h-100 text-bg-dark">
+                    <div class="artist-image-overlay artist1-image-overlay">
+                        <img src="img/Max_Bill_3-3.jpg" class="card-img" alt="artwork3_artist1">
+                    </div>
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                        <div class="align-items-center p-2">
+                            <h3 class="card-title text-center"><strong>Komposition mit weissem Zentrum</strong></h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- ARTWORK 4 -->
+        <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist2_4">
+                <div class="card h-100 text-bg-dark">
+                    <div class="artist-image-overlay artist1-image-overlay">
+                        <img src="img/Max_Bill_4-4.jpg" class="card-img" alt="artwork4_artist1">
+                    </div>
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                        <div class="align-items-center p-2">
+                            <h3 class="card-title text-center"><strong>Acrylic on canvas</strong></h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+      
+        <div class="col-11 col-md-12 mx-auto mb-3">
+            
+        </div>
+      </div>
+        <!-- obras de max -->
+      <div class="modal fade" id="modal_artist2_1" tabindex="-1" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-4">Horizontal-vertikal-rhythmus, 1943</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Max_Bill_1.jpg" class="card-img-top" alt="modal_artist2_1">
+                    
+                      
+        </p>
+                </div>
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-black" data-bs-target="#modal_artist2_1" data-bs-toggle="modal">&lt;</button>
+                    <p><strong>01/04</strong></p>
+                    <button type="button" class="btn btn-black" data-bs-target="#modal_artist2_2" data-bs-toggle="modal">&gt;</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal_artist2_2" tabindex="-1" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h3 class="modal-title fs-4">Hauser & Wirth, 1927</h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <img src="img/Max_Bill_2.jpg" class="card-img-top" alt="modal_artist2_2">
+                  
+                    
+          
+              </div>
+              <div class="modal-footer d-flex justify-content-between">
+                  <button type="button" class="btn btn-black" data-bs-target="#modal_artist2_1" data-bs-toggle="modal">&lt;</button>
+                  <p><strong>02/04</strong></p>
+                  <button type="button" class="btn btn-black" data-bs-target="#modal_artist2_3" data-bs-toggle="modal">&gt;</button>
+              </div>
+          </div>
+      </div>
+      </div>
+
+      <div class="modal fade" id="modal_artist2_3" tabindex="-1" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title fs-4">Komposition mit weissem Zentrum, 1972</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="img/Max_Bill_3.jpg" class="card-img-top" alt="modal_artist2_3">
+                
+                  
+            
+            </div>
+            <div class="modal-footer d-flex justify-content-between">
+                <button type="button" class="btn btn-black" data-bs-target="#modal_artist2_2" data-bs-toggle="modal">&lt;</button>
+                <p><strong>03/04</strong></p>
+                <button type="button" class="btn btn-black" data-bs-target="#modal_artist2_4" data-bs-toggle="modal">&gt;</button>
+            </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="modal fade" id="modal_artist2_4" tabindex="-1" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h3 class="modal-title fs-4">Acrylic on canvas, 1978</h3>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <img src="img/Max_Bill_4.jpg" class="card-img-top" alt="modal_artist2_4">
+              
+                
+                </div>
+          <div class="modal-footer d-flex justify-content-between">
+              <button type="button" class="btn btn-black" data-bs-target="#modal_artist2_3" data-bs-toggle="modal">&lt;</button>
+              <p><strong>04/04</strong></p>
+              <button type="button" class="btn btn-black" data-bs-target="#modal_artist2_1" data-bs-toggle="modal">&gt;</button>
+          </div>
+      </div>
+      </div>
+      </div>
+              
+          <img class="d-block mx-lg-auto img-fluid rounded-start card-img-top" src="img/Diseño1.jpg" alt="">
+
+          <br>
+
+        <div class="row mx-auto" id="artworkSection1">
+          <div class="col-11 col-md-12 mx-auto mb-4 d-flex justify-content-between align-items-center">
+              <p class="my-auto fs-4"><strong>Ludwig Mies van der Rohe</strong></p>
+          </div>
+          <!-- ARTWORK 1 -->
+          <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist3_1">
+                  <div class="card h-100 text-bg-dark">
+                      <div class="artist-image-overlay artist1-image-overlay">
+                          <img src="img/Ludwig_Mies_van_der_Rohe1.jpg" class="card-img" alt="artwork1_artist1">
+                      </div>
+                      <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                          <div class="align-items-center p-2">
+                              <h3 class="card-title text-center"><strong>Ludwig Mies van der Rohe</strong></h3>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <!-- ARTWORK 2 -->
+          <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist3_2">
+                  <div class="card h-100 text-bg-dark">
+                      <div class="artist-image-overlay artist1-image-overlay">
+                          <img src="img/Ludwig_Mies_van_der_Rohe2-2.jpg" class="card-img" alt="artwork2_artist1">
+                      </div>
+                      <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                          <div class="align-items-center p-2">
+                              <h3 class="card-title text-center"><strong>Komposition mit weissem Zentrum</strong></h3>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <!-- ARTWORK 3 -->
+          <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist3_3">
+                  <div class="card h-100 text-bg-dark">
+                      <div class="artist-image-overlay artist1-image-overlay">
+                          <img src="img/Ludwig_Mies_van_der_Rohe3-3.jpg" class="card-img" alt="artwork3_artist1">
+                      </div>
+                      <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                          <div class="align-items-center p-2">
+                              <h3 class="card-title text-center"><strong>Barcelona Pavilion</strong></h3>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <!-- ARTWORK 4 -->
+          <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist3_4">
+                  <div class="card h-100 text-bg-dark">
+                      <div class="artist-image-overlay artist1-image-overlay">
+                          <img src="img/Ludwig_Mies_van_der_Rohe4-4.jpg" class="card-img" alt="artwork4_artist1">
+                      </div>
+                      <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                          <div class="align-items-center p-2">
+                              <h3 class="card-title text-center"><strong>El Lissitzky</strong></h3>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          
+        
+          <div class="col-11 col-md-12 mx-auto mb-3">
+              
+          </div>
+        </div>
+          <!-- obras de max -->
+        <div class="modal fade" id="modal_artist3_1" tabindex="-1" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h3 class="modal-title fs-4">Ludwig Mies van der Rohe, 1950</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <img src="img/Ludwig_Mies_van_der_Rohe1.jpg" class="card-img-top" alt="modal_artist3_1">
+                      
+                        
+          </p>
+                  </div>
+                  <div class="modal-footer d-flex justify-content-between">
+                      <button type="button" class="btn btn-black" data-bs-target="#modal_artist3_1" data-bs-toggle="modal">&lt;</button>
+                      <p><strong>01/04</strong></p>
+                      <button type="button" class="btn btn-black" data-bs-target="#modal_artist3_2" data-bs-toggle="modal">&gt;</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+        
+        <div class="modal fade" id="modal_artist3_2" tabindex="-1" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-4">Komposition mit weissem Zentrum, 1924</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Ludwig_Mies_van_der_Rohe2.jpg" class="card-img-top" alt="modal_artist3_2">
+                    
+                      
+        </p>
+                </div>
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-black" data-bs-target="#modal_artist3_1" data-bs-toggle="modal">&lt;</button>
+                    <p><strong>02/04</strong></p>
+                    <button type="button" class="btn btn-black" data-bs-target="#modal_artist3_3" data-bs-toggle="modal">&gt;</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="modal fade" id="modal_artist3_3" tabindex="-1" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h3 class="modal-title fs-4">Barcelona Pavilion, 1929</h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <img src="img/Ludwig_Mies_van_der_Rohe3.jpg" class="card-img-top" alt="modal_artist3_3">
+                  
+                    
+          
+              </div>
+              <div class="modal-footer d-flex justify-content-between">
+                  <button type="button" class="btn btn-black" data-bs-target="#modal_artist3_2" data-bs-toggle="modal">&lt;</button>
+                  <p><strong>03/04</strong></p>
+                  <button type="button" class="btn btn-black" data-bs-target="#modal_artist3_4" data-bs-toggle="modal">&gt;</button>
+              </div>
+          </div>
+        </div>
+        </div>
+        
+        <div class="modal fade" id="modal_artist3_4" tabindex="-1" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title fs-4">El Lissitzky, 1927</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="img/Ludwig_Mies_van_der_Rohe4.jpg" class="card-img-top" alt="modal_artist3_4">
+                
+                  
+            
+            </div>
+            <div class="modal-footer d-flex justify-content-between">
+                <button type="button" class="btn btn-black" data-bs-target="#modal_artist3_3" data-bs-toggle="modal">&lt;</button>
+                <p><strong>04/04</strong></p>
+                <button type="button" class="btn btn-black" data-bs-target="#modal_artist3_1" data-bs-toggle="modal">&gt;</button>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <img class="d-block mx-lg-auto img-fluid rounded-start card-img-top" src="img/Diseño1.jpg" alt="">
+
+        <br>
+
+      <div class="row mx-auto" id="artworkSection1">
+        <div class="col-11 col-md-12 mx-auto mb-4 d-flex justify-content-between align-items-center">
+            <p class="my-auto fs-4"><strong>Farkas Ferenc Molnár</strong></p>
+        </div>
+        <!-- ARTWORK 1 -->
+        <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist4_1">
+                <div class="card h-100 text-bg-dark">
+                    <div class="artist-image-overlay artist1-image-overlay">
+                        <img src="img/Farkas_Molnár1-1.jpg" class="card-img" alt="artwork1_artist1">
+                    </div>
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                        <div class="align-items-center p-2">
+                            <h3 class="card-title text-center"><strong>Green Landscape</strong></h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- ARTWORK 2 -->
+        <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist4_2">
+                <div class="card h-100 text-bg-dark">
+                    <div class="artist-image-overlay artist1-image-overlay">
+                        <img src="img/Farkas_Molnár2-2.jpg" class="card-img" alt="artwork2_artist1">
+                    </div>
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                        <div class="align-items-center p-2">
+                            <h3 class="card-title text-center"><strong>Humanity</strong></h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- ARTWORK 3 -->
+        <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist4_3">
+                <div class="card h-100 text-bg-dark">
+                    <div class="artist-image-overlay artist1-image-overlay">
+                        <img src="img/Farkas_Molnár3.jpg" class="card-img" alt="artwork3_artist1">
+                    </div>
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                        <div class="align-items-center p-2">
+                            <h3 class="card-title text-center"><strong>A Pasaréti téri templom látképe</strong></h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- ARTWORK 4 -->
+        <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#modal_artist4_4">
+                <div class="card h-100 text-bg-dark">
+                    <div class="artist-image-overlay artist1-image-overlay">
+                        <img src="img/Farkas_Molnár4-4.jpg" class="card-img" alt="artwork4_artist1">
+                    </div>
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center artist1-artwork">
+                        <div class="align-items-center p-2">
+                            <h3 class="card-title text-center"><strong>Composition</strong></h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+      
+        <div class="col-11 col-md-12 mx-auto mb-3">
+            
+        </div>
+      </div>
+        <!-- obras de max -->
+      <div class="modal fade" id="modal_artist4_1" tabindex="-1" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-4">Green Landscape, 1921</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/Farkas_Molnár1.jpg" class="card-img-top" alt="modal_artist4_1">
+                    
+                      
+        
+                </div>
+                <div class="modal-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-black" data-bs-target="#modal_artist4_1" data-bs-toggle="modal">&lt;</button>
+                    <p><strong>01/04</strong></p>
+                    <button type="button" class="btn btn-black" data-bs-target="#modal_artist4_2" data-bs-toggle="modal">&gt;</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="modal_artist4_2" tabindex="-1" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h3 class="modal-title fs-4">Humanity, 1923</h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <img src="img/Farkas_Molnár2.jpg" class="card-img-top" alt="modal_artist4_2">
+              </div>
+              <div class="modal-footer d-flex justify-content-between">
+                  <button type="button" class="btn btn-black" data-bs-target="#modal_artist4_1" data-bs-toggle="modal">&lt;</button>
+                  <p><strong>02/04</strong></p>
+                  <button type="button" class="btn btn-black" data-bs-target="#modal_artist4_3" data-bs-toggle="modal">&gt;</button>
+              </div>
+          </div>
+      </div>
+      </div>
+
+      <div class="modal fade" id="modal_artist4_3" tabindex="-1" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title fs-4">A Pasaréti téri templom látképe, 1922</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="img/Farkas_Molnár3.jpg" class="card-img-top" alt="modal_artist4_3">
+                
+                  
+            
+            </div>
+            <div class="modal-footer d-flex justify-content-between">
+                <button type="button" class="btn btn-black" data-bs-target="#modal_artist4_2" data-bs-toggle="modal">&lt;</button>
+                <p><strong>03/04</strong></p>
+                <button type="button" class="btn btn-black" data-bs-target="#modal_artist4_4" data-bs-toggle="modal">&gt;</button>
+            </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="modal fade" id="modal_artist4_4" tabindex="-1" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h3 class="modal-title fs-4">Composition, 1943</h3>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <img src="img/Farkas_Molnár4.jpg" class="card-img-top" alt="modal_artist4_4">
+              
+                
+                </div>
+          <div class="modal-footer d-flex justify-content-between">
+              <button type="button" class="btn btn-black" data-bs-target="#modal_artist4_3" data-bs-toggle="modal">&lt;</button>
+              <p><strong>04/04</strong></p>
+              <button type="button" class="btn btn-black" data-bs-target="#modal_artist4_1" data-bs-toggle="modal">&gt;</button>
+          </div>
+      </div>
+      </div>
+      </div>
+
+</div>
+
+<div>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+
+    <div class="col-12 col-lg-4">
+        <p class="mb-1 text-dark text-center">©2023 Guggenheim Museum New York</p>
+        <p class="text-dark text-center">Mauricio Rios / Diseño Web / DGT4AP </p>
+    </div>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+
+    <ul class="nav col-12 col-lg-4">
+      <li class="nav-item"><a href="Nosotros.html" class="nav-link px-2 text-body-secondary" >Nosotros</a>
+      
+      <li class="nav-item"><a href="Colecciones.html" class="nav-link px-2 text-body-secondary" >Colecciones</a>
+      
+      <li class="nav-item"><a href="Tienda.html" class="nav-link px-2 text-body-secondary" >Tienda</a>
+      
+      <li class="nav-item"><a href="Contacto.html" class="nav-link px-2 text-body-secondary" >Contacto</a>
+      
+      <li class="nav-item"><a href="Reseña.html" class="nav-link px-2 text-body-secondary" >Reseñas</a>
+      
+    </ul>
+  </footer>
+</div>
+
+
+</body>
+</html>

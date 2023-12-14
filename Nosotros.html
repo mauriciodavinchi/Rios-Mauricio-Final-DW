@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet” href=”css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<style>
+  .navbar {
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+   }
+
+   *{
+    font-family: 'Baumans', cursive;
+    font-size: 17px;
+   }
+
+   .row-normal {
+    flex-direction: row;
+   }
+   
+   .row-reversed {
+    flex-direction: row-reverse;
+   }
+
+   @media screen and (max-width: 767px) {
+    .row-normal {
+       flex-direction: column;
+    }
+   
+    .row-reversed {
+       flex-direction: column-reverse;
+    }
+   }
+</style>
+<body>
+  <div class="container-fluid">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid justify-content-center">
+          <a class="navbar-brand" href="index.html">GUGGENHEIM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <a class="nav-link" href="Nosotros.html" target="_top">Nosotros</a>
+              <a class="nav-link" href="Colecciones.html" target="_top">Colecciones</a>
+              <a class="nav-link" href="Tienda.html" target="_top">Tienda</a>
+              <a class="nav-link" href="Contacto.html" target="_top">Contacto</a> 
+              <a class="nav-link" href="Reseña.html" target="_top">Reseñas</a>
+            </ul>
+          </div>
+        </div>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container">
+
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-sm-12 col-lg-6">
+            <img src="img/GUGGENHEIM_VIEJITO.jpg" class="d-block mx-lg-auto img-fluid rounded-start card-img-top" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-12 col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Sobre Nosotros</h1>
+            <p class="movimiento"> La narrativa del Museo Guggenheim se inicia con la colección 
+              personal de Solomon R. Guggenheim, un influyente empresario y filántropo estadounidense del 
+              siglo XX. Desde principios de esa centuria, Guggenheim inició la fascinante tarea de coleccionar 
+              obras de arte moderno, dando origen, en 1937, a la Solomon R. Guggenheim Foundation. El propósito
+              fundamental de esta fundación era impulsar la comprensión del arte moderno y contemporáneo, 
+              una misión que culminó en 1939 con la apertura del primer museo Guggenheim en la ciudad de Nueva York.
+              Este primer edificio, diseñado por el renombrado arquitecto Frank Lloyd Wright, ocupó una mansión y 
+              se erige como un testimonio arquitectónico singular. Su estructura en espiral, ahora famosa, se 
+              convirtió en un ícono arquitectónico, reflejando la innovación y la ruptura con las convenciones 
+              tradicionales. El Museo Solomon R. Guggenheim de Nueva York se erige no solo como un depósito de 
+              arte, sino como una obra maestra en sí mismo.</p>
+          </div>
+        </div>
+ 
+
+            <img class="d-block mx-lg-auto img-fluid rounded-start card-img-top" src="img/Diseño1.jpg" alt="">
+
+          <div class="container mt-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-sm-12 col-lg-6 order-sm-first">
+                <img src="img/Solomon R. Guggenheim.jpg" class="d-block mx-lg-auto img-fluid rounded-start card-img-top" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-sm-0 col-lg-6">
+                <h2 class="display-5 fw-bold lh-1 mb-3">Visión y Objetivo</h2>
+                <p class="movimiento">La visión del Museo Guggenheim se centra en ser un líder global en la promoción y comprensión 
+                  del arte moderno y contemporáneo. Su objetivo principal, como establecido por la Solomon R. Guggenheim Foundation, 
+                  es ofrecer a audiencias de todo el mundo experiencias transformadoras a través de exposiciones y programas educativos 
+                  que estimulen el diálogo y fomenten una apreciación más profunda del arte innovador. La institución aspira a desafiar 
+                  las convenciones, celebrar la creatividad vanguardista y contribuir al enriquecimiento cultural de las comunidades donde
+                  se encuentra presente. La armonía entre la visión arquitectónica distintiva de sus edificios y la diversidad de su 
+                  colección refleja el compromiso continuo del museo con la excelencia artística y la conexión global a través del arte.</p>
+              </div>
+            </div>
+          </div>
+</div>
+
+  <div>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+
+        <div class="col-12 col-lg-4">
+            <p class="mb-1 text-dark text-center">©2023 Guggenheim Museum New York</p>
+            <p class="text-dark text-center">Mauricio Rios / Diseño Web / DGT4AP </p>
+        </div>
+
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-4">
+          <li class="nav-item"><a href="Nosotros.html" class="nav-link px-2 text-body-secondary" >Nosotros</a>
+          
+          <li class="nav-item"><a href="Colecciones.html" class="nav-link px-2 text-body-secondary" >Colecciones</a>
+          
+          <li class="nav-item"><a href="Tienda.html" class="nav-link px-2 text-body-secondary" >Tienda</a>
+          
+          <li class="nav-item"><a href="Contacto.html" class="nav-link px-2 text-body-secondary" >Contacto</a>
+          
+          <li class="nav-item"><a href="Reseña.html" class="nav-link px-2 text-body-secondary" >Reseñas</a>
+          
+        </ul>
+      </footer>
+  </div>
+
+</body>
+</html>
